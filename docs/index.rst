@@ -12,6 +12,7 @@ Welcome to helloWorld's documentation!
 
    autodoc
 
+test
 
 Indices and tables
 ==================
