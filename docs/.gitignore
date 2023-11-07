@@ -1,3 +1,5 @@
-*.swp
-/_build
-/doctrees
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
