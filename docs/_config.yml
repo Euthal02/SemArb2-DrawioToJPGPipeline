@@ -29,9 +29,10 @@ url: "https://euthal02.github.io" # the base hostname & protocol for your site, 
 github_username:  "euthal02"
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-default-layout
 
 # Exclude from processing.
 # The following items will not be processed, by default.
