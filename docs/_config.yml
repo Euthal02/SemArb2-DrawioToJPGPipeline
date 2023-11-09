@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site is used by Euthal02 as his documentation place for his second Semester Thesis.
 url: "https://euthal02.github.io/SemArb2-DrawioToJPGPipeline/"
 github_username:  "euthal02"
-favicon_ico: "ressources/images/general/favicon.ico"
+favicon_ico: "/ressources/images/general/favicon.ico"
 aux_links:
   Projektplanung: https://github.com/users/Euthal02/projects/3
 
