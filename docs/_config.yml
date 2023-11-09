@@ -34,6 +34,9 @@ remote_theme: just-the-docs/just-the-docs
 aux_links:
   Projektplanung: https://github.com/orgs/Cloud-native-engineering/projects/3
 
+plugins:
+  - jekyll-remote-theme
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
