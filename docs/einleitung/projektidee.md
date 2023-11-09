@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1.1 Projektidee
-has_parent: 2. Einleitung
+parent: 2. Einleitung
 nav_order: 3
 
 ---
