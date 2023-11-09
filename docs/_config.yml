@@ -18,22 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# site overview stuff
 title: Semesterarbeit 2 - Marco Kälin
 email: marco.kaelin1@edu.tbz.ch
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until another declaration
   This site is used by Euthal02 as his documentation place for his second Semester Thesis.
-url: "https://euthal02.github.io/SemArb2-DrawioToJPGPipeline/"
+
+# personal stuff
+author: "Marco Kälin"
 github_username:  "euthal02"
-favicon_ico: "./ressources/images/general/favicon.ico"
+
+# external stuff
 aux_links:
   Projektplanung: https://github.com/users/Euthal02/projects/3
 
-# Build settings
+# technical site stuff
+url: "https://euthal02.github.io/SemArb2-DrawioToJPGPipeline/"
+favicon_ico: "./ressources/images/general/favicon.ico"
 remote_theme: just-the-docs/just-the-docs
-
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+back_to_top: true
+back_to_top_text: "Back to top"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
