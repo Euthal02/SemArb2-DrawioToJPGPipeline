@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 1. Einleitung
-nav_order: 1
-permalink: /
+nav_order: 2
 ---
 
 # 1. Einleitung

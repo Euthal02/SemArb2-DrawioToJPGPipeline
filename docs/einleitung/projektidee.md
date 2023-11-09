@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 1.1 Projektidee
-nav_order: 2
-permalink: /
+has_parent: 1. Einleitung
+nav_order: 1
+
 ---
 
 # 1.1 Projektidee (aus dem Einreicheformular)
