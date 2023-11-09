@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Startseite
+title: 1. Startseite
 nav_order: 1
 permalink: /
 ---
@@ -8,4 +8,4 @@ permalink: /
 # Willkommen!
 
 Dies ist mein Begleitdokument zu meiner Semesterarbeit.
-Ich freue mich Sie hier näher an meine Semesterabreit zu bringen.
+Ich freue mich Sie hier näher an meine Semesterabreit zu bringen!
