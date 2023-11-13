@@ -12,3 +12,4 @@ Ich freue mich Sie hier näher an meine Semesterabreit zu bringen!
 
 Meine Semesterarbeit ist in drei Teile gegliedert. Eine Einleitung, den Hauptteil und den Schlussteil.
 
+Ausserdem findet sich hier ein Quellenverzechniss für alle externen Quellen, welche ich während meiner Arbeit genutzt habe.

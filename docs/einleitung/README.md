@@ -11,8 +11,11 @@ Allgemeine Fragen / Problemstellung und Erwartungen werden im Kapitel Einleitung
 
 Hier sollten sich alle Fragen bezüglich eventuellen SOLL Zuständen klären.
 
-Der Weg zwischen IST und SOLL Zustand wird geplant und alle anderen Projektdaten werden hier definiert.
+Der Weg zwischen IST und SOLL Zustand wird geplant und alle anderen Projektdaten werden hier definiert:
 
-Im Kapitel Hauptteil wird anschliessend das Projekt erarbeitet.
-
-Im Kapitel Schlussteil wird das ganze Projekt kritisch hinterfragt und mögliche Verbesserungsmöglichkeiten notiert.
+- Ziele
+- Risiken
+- Scrum Planungen
+- Zeitplan
+- Projektmethode
+- SEUSAG
