@@ -18,3 +18,12 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 ### 5.1.2 Kanban Beispiel
 
 <https://gofarwell.com/wp-content/uploads/2020/12/Kanban-Board-Flow-Do-Doing-Done1000px.png>
+
+## 5.2 Hilfsmittel
+
+Welche Hilfsmittel habe ich genutzt?
+Das reicht von Tools, die ich nutzen kann, bis zu Webseiten, bei welchen ich mir Wissen angeeignet habe.
+
+### 5.2.1 Chat-GPT
+
+<https://chat.openai.com/>

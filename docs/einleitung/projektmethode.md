@@ -38,7 +38,7 @@ Um es in den Worten von Chat-GPT zu sagen:
 
     Es ist wichtig zu beachten, dass die Einführung von LEAN ein kontinuierlicher Prozess ist. Es erfordert Zeit, Engagement und eine offene Einstellung für Veränderungen. Die Einbindung von Mitarbeitern auf allen Ebenen des Unternehmens ist entscheidend, um erfolgreich nach dem LEAN-Prinzip zu arbeiten.
 
-[Quelle Chat-GPT](../Anhang/quellen.md#chat-gpt)
+[Quelle Chat-GPT](../anhang/quellen.html#521-chat-gpt)
 
 Ich verstehe die erwähnten Punkte vorallem so, dass nach Möglichkeit Überschneidungen und Verschwendungen vermeidet werden sollten. Jegliche Zeit, welche ich an einem Punkt investiere, der nicht zum Umfang des eigentlichen Projekts gehört, ist verschwendet. Diese Zeit und Energie könnte an einem anderen weitaus besser eingesetzt werden.
 
@@ -48,9 +48,9 @@ Aus diesem Grunde möchte ich auch meine Projektmethode auf LEAN basieren. Ich m
 
 Die Idee hinter Scrum, Sprints zu verwenden, um effiziente Arbeitserledigung zu ermöglichen, finde ich persönlich sehr sympathisch. Ich finde es eine gute Möglichkeit, am Anfang eines Sprint die genauen Ziele zu besprechen und zu definieren und anschliessend möglichst ohne Unterbrechungen an diesem Ziel zu arbeiten.
 
-![SCRUM Overview](../ressourcen/bilder/projectmanagement/scrum_overview.jpg)
+![SCRUM Overview](../ressources/images/projectmanagement/scrum_overview.jpg)
 
-[Quelle Bild - Scrum Overview](../anhang/quellen.md#511-scrum-overview)
+[Quelle Bild - Scrum Overview](../anhang/quellen.html#511-scrum-overview)
 
 Die "Daily Scrum Meetings" fallen bei diesem Projekt weg, da ich der einzige Stakeholder bin. Ich bin in diesem Falle der Scrum Master, das Entwicklerteam, der Product Owner und der Customer in einem.
 
@@ -64,9 +64,9 @@ Wir haben 3 Sprints in dieser Semesterarbeit.
 
 Kanban ist das Mittel zum Zweck, ich möchte meine noch offenen Tasks übersichtlich darstellen, mit Kanban ist das einfach möglich.
 
-![Kanban Boards](../ressourcen/bilder/projectmanagement/Kanban-Boards.png)
+![Kanban Boards](../ressources/images/projectmanagement/Kanban-Boards.png)
 
-[Bild Quelle - Kanban Beispiel](../anhang/quellen.md#512-kanban-beispiel)
+[Bild Quelle - Kanban Beispiel](../anhang/quellen.html#512-kanban-beispiel)
 
 Ich habe 4 Boards:
 
