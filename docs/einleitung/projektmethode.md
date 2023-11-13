@@ -48,27 +48,25 @@ Aus diesem Grunde möchte ich auch meine Projektmethode auf LEAN basieren. Ich m
 
 Die Idee hinter Scrum, Sprints zu verwenden, um effiziente Arbeitserledigung zu ermöglichen, finde ich persönlich sehr sympathisch. Ich finde es eine gute Möglichkeit, am Anfang eines Sprint die genauen Ziele zu besprechen und zu definieren und anschliessend möglichst ohne Unterbrechungen an diesem Ziel zu arbeiten.
 
-![SCRUM Overview](../Ressourcen/Bilder/projectmanagment/scrum_overview.jpg)
+![SCRUM Overview](../Ressourcen/Bilder/projectmanagement/scrum_overview.jpg)
 
-[Quelle Bild - Scrum Overview](../Anhang/quellen.md#scrum-overview)
+[Quelle Bild - Scrum Overview](../Anhang/quellen.md#511-scrum-overview)
 
-Die "Daily Scrum Meetings" fallen bei diesem Projekt weg, da ich der einzige Stakeholder bin. Ich bin in diesem Falle der Scrum Master, das Entwicklerteam, der Product Owner und der Customer in einem. 😃
+Die "Daily Scrum Meetings" fallen bei diesem Projekt weg, da ich der einzige Stakeholder bin. Ich bin in diesem Falle der Scrum Master, das Entwicklerteam, der Product Owner und der Customer in einem.
 
 Ich finde die sich anbietende Vermischung von Lean und Scrum sehr positiv, da wir mit Lean besonders auf die Einfachheit eines Projekts acht geben, und bei Scrum die Einfachheit aufgrund der separierten Sprints bereits in einem bestimmten Masse gegeben ist.
 
 Wir haben 3 Sprints in dieser Semesterarbeit.
 
-* [Sprint 1: 19ter April 2023 - 16ter Mai 2023](https://github.com/Euthal02/SemArb1-AWS_Certificate_DNS_Sinkhole/issues/21)
-* [Sprint 2: 17ter Mai 2023 - 13 Juni 2023](https://github.com/Euthal02/SemArb1-AWS_Certificate_DNS_Sinkhole/issues/28)
-* [Sprint 3: 14 Juni 2023 - 11 Juli 2023](https://github.com/Euthal02/SemArb1-AWS_Certificate_DNS_Sinkhole/issues/29)
+![Sprints](./sprints.md)
 
 ## KANBAN
 
 Kanban ist das Mittel zum Zweck, ich möchte meine noch offenen Tasks übersichtlich darstellen, mit Kanban ist das einfach möglich.
 
-![Kanban Boards](../Ressourcen/Bilder/projectmanagment/Kanban-Boards.png)
+![Kanban Boards](../Ressourcen/Bilder/projectmanagement/Kanban-Boards.png)
 
-[Bild Quelle - Kanban Beispiel](../Anhang/quellen.md#kanban-beispiel)
+[Bild Quelle - Kanban Beispiel](../Anhang/quellen.md#512-kanban-beispiel)
 
 Ich habe 4 Boards:
 
@@ -77,4 +75,4 @@ Ich habe 4 Boards:
 * Testing
 * Done
 
-[Meine Boards sind hier zu sehen.](https://github.com/users/Euthal02/projects/2/views/1)
+[Meine Boards sind hier zu sehen.](https://github.com/users/Euthal02/projects/3/views/2)
