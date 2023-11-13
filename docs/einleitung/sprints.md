@@ -2,11 +2,12 @@
 layout: default
 title: 2.3.1 Scrum Sprints
 parent: 2.3 Projektmethode
+grandparent: 2. Einleitung
 nav_order: 6
 
 ---
 
-# 2.4.1 Scrum Sprints
+# 2.3.1 Scrum Sprints
 
 Da ich Scrum als Hauptprojektmethode nutze, arbeite ich in Sprints.
 

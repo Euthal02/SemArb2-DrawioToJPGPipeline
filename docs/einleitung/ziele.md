@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 2.5 Ziele
+title: 2.4 Ziele
 parent: 2. Einleitung
 nav_order: 7
 
 ---
 
-# 2.5 Ziele (aus dem Einreicheformular)
+# 2.4 Ziele (aus dem Einreicheformular)
 
 Folgende Ziele habe ich mir gesetzt. 
 Im Abschluss an diese Arbeit werden diese Ziele noch einmal überprüft.

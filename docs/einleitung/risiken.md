@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 2.6 Risiken
+title: 2.5 Risiken
 parent: 2. Einleitung
 nav_order: 8
 
 ---
 
-# 2.6 Risiken
+# 2.5 Risiken
 
 Folgende Risiken habe ich evaluiert, diese Risiken sind eingeordnet nach "Eintrittswahrscheinlichkeit".
 Dazu habe ich für jeden Punk eine "Verhinderung" was dieses Problem unterdrücken sollte.
