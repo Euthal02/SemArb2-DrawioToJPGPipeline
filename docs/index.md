@@ -9,3 +9,6 @@ permalink: /
 
 Dies ist mein Begleitdokument zu meiner Semesterarbeit.
 Ich freue mich Sie hier näher an meine Semesterabreit zu bringen!
+
+Meine Semesterarbeit ist in drei Teile gegliedert. Eine Einleitung, den Hauptteil und den Schlussteil.
+

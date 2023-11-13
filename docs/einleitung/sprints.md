@@ -1,4 +1,12 @@
-# 1.4.1 Scrum Sprints
+---
+layout: default
+title: 2.3.1 Scrum Sprints
+parent: 2.3 Projektmethode
+nav_order: 6
+
+---
+
+# 2.4.1 Scrum Sprints
 
 Da ich Scrum als Hauptprojektmethode nutze, arbeite ich in Sprints.
 
@@ -38,9 +46,3 @@ Der Abschluss eines Sprints wird dabei mit der Planung des neuen kombiniert. Die
 [Planung für den Sprint 3](https://github.com/Euthal02/SemArb1-AWS_Certificate_DNS_Sinkhole/issues/29)
 
 [Abschluss Sprint 3](https://github.com/Euthal02/SemArb1-AWS_Certificate_DNS_Sinkhole/issues/30)
-
------
-
-[1.5 Was möchte ich erreichen?](./ziele.md)
-
-[Zurück zum Unterverzeichnis](./README.md)

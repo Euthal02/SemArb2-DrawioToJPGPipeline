@@ -1,4 +1,12 @@
-# 1.5 Ziele (aus dem Einreicheformular)
+---
+layout: default
+title: 2.5 Ziele
+parent: 2. Einleitung
+nav_order: 7
+
+---
+
+# 2.5 Ziele (aus dem Einreicheformular)
 
 Folgende Ziele habe ich mir gesetzt. 
 Im Abschluss an diese Arbeit werden diese Ziele noch einmal überprüft.
@@ -13,9 +21,3 @@ Im Abschluss an diese Arbeit werden diese Ziele noch einmal überprüft.
 * Billing Alarm einrichten.
 * Künstliche Kreditkarte hinterlegen. (Revolut Service)
 * Free Tier Service nutzen soweit möglich.
-
------
-
-[1.6 Was sind meine Risiken?](./risiken.md)
-
-[Zurück zum Unterverzeichnis](./README.md)

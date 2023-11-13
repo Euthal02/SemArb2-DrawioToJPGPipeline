@@ -1,4 +1,12 @@
-# 1.3 Zeitplan
+---
+layout: default
+title: 2.2 Zeitplan
+parent: 2. Einleitung
+nav_order: 4
+
+---
+
+# 2.2 Zeitplan
 
 Beim Zeitplan ist zu unterscheiden zwischen dem eigentlichen SOLL Zeitplan, welcher beim Einreichungsformular eingegeben wurde, und dem IST Zeitplan.
 
@@ -27,9 +35,3 @@ Mein Zeitplan ist dargestellt in GitHub.
 Ich nutze die Funktion Issues zu Tasks konvertieren, diese Tasks können dann einem Kanban Board dargestellt und in einem Gantt Diagram eingeordnet werden.
 
 [Öffentlich einsehbar unter diesem Link!](https://github.com/users/Euthal02/projects/2/views/2)
-
------
-
-[1.4 Projektmethode](./projektmethode.md)
-
-[Zurück zum Unterverzeichnis](./README.md)

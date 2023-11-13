@@ -1,4 +1,12 @@
-# 1.6 Risiken
+---
+layout: default
+title: 2.6 Risiken
+parent: 2. Einleitung
+nav_order: 8
+
+---
+
+# 2.6 Risiken
 
 Folgende Risiken habe ich evaluiert, diese Risiken sind eingeordnet nach "Eintrittswahrscheinlichkeit".
 Dazu habe ich für jeden Punk eine "Verhinderung" was dieses Problem unterdrücken sollte.
@@ -13,9 +21,3 @@ Dazu habe ich für jeden Punk eine "Verhinderung" was dieses Problem unterdrück
 | Sekundäres Nebenprojekt funktioniert nicht.     | Sehr tief                   | Dieses Problem tritt erst auf, wenn das primäre Nebenprojekt nicht funktioniert. Da ich dieses Risiko als klein einstufe, kann das Risiko des sekundären Projekts noch kleiner eingestuft werden. |
 
 Ich bin zuversichtlich durch diese Massnahmen ein Scheitern verhindern zu können.
-
------
-
-[2. Hauptteil](../Hauptteil/README.md)
-
-[Zurück zum Unterverzeichnis](./README.md)
