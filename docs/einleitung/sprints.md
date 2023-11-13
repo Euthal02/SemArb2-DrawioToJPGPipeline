@@ -3,7 +3,7 @@ layout: default
 title: 2.3.1 Scrum Sprints
 parent: 2.3 Projektmethode
 grand_parent: 2. Einleitung
-nav_order: 6
+nav_order: 204
 
 ---
 
