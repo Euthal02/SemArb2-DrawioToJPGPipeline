@@ -19,6 +19,14 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://gofarwell.com/wp-content/uploads/2020/12/Kanban-Board-Flow-Do-Doing-Done1000px.png>
 
+### 5.1.3 ReadTheDocs
+
+<https://blog.readthedocs.com/new-theme-read-the-docs/>
+
+### 5.1.4 Jenkins Logo
+
+<https://freebiesupply.com/logos/jenkins-logo-2/>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?

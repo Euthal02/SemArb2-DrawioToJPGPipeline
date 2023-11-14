@@ -1,1 +1,2 @@
-# SemArb2-DrawioToJPGPipeline
+# Zweite Semester Arbeit - DrawIO To JPG Pipeline
+
