@@ -27,6 +27,10 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://freebiesupply.com/logos/jenkins-logo-2/>
 
+### 5.1.5 SOLL IST Vergleich
+
+<https://stock.adobe.com/de/search?k=soll-ist-vergleich>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?

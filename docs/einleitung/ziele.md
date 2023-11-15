@@ -8,16 +8,11 @@ nav_order: 205
 
 # 2.4 Ziele (aus dem Einreicheformular)
 
-Folgende Ziele habe ich mir gesetzt. 
+Folgende Ziele habe ich mir gesetzt.
 Im Abschluss an diese Arbeit werden diese Ziele noch einmal überprüft.
 
-* Absolvieren der Zertifizierung.
-* Umfassende Dokumentation über den Learning Path.
-* Nutzbaren DNS-Server einrichten.
-* Messbar tiefere Werbebelastung bei Nutzung des Sinkhole Servers.
-* Alternativ: Nutzbaren Wireguard Web Gateway einrichten.
-* Alternativ: Jegliche Geräte meiner Wahl können eine jeweils statische IP-Adresse eines Landes meiner Wahl nutzen. Die statische IP-Adresse soll dabei dynamisch wechselbar sein.
-* Massnahmen treffen, um die Kostenbelastung meinerseits so weit wie möglich zu reduzieren.
-* Billing Alarm einrichten.
-* Künstliche Kreditkarte hinterlegen. (Revolut Service)
-* Free Tier Service nutzen soweit möglich.
+* Umsetzung mittels Jenkinsfile und Docker Compose. Als Implementierung von IaC Komponenten.
+* Einfache und löschbare Container, welche pro Laufzeit erstellt werden und anschliessend keine Spuren hinterlassen.
+* Die Umwandlung der Files mittels einzelner kleinen Funktionen als Implementierungen von FaaS Komponenten.
+* Saubere Einbettung in bestehende Pipeline, keine zusätzliche Pipeline.
+* Von GIT Push zur Darstellung auf der Webseite alles automatisiert.

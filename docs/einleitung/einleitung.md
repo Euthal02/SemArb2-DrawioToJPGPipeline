@@ -19,3 +19,7 @@ Der Weg zwischen IST und SOLL Zustand wird geplant und alle anderen Projektdaten
 - Zeitplan
 - Projektmethode
 - SEUSAG
+
+![SOLL IST Vergleich](../ressources/images/projectmanagement/vergleich.jpg)
+
+[Quelle Bild - SOLL IST Vergleich](../anhang/quellen.html#515-soll-ist-vergleich)

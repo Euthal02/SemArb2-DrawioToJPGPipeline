@@ -52,7 +52,7 @@ Ich finde die sich anbietende Vermischung von Lean und Scrum sehr positiv, da wi
 
 Wir haben 3 Sprints in dieser Semesterarbeit.
 
-![Sprints](./sprints.md)
+![Sprints](./sprints.html)
 
 ## KANBAN
 
