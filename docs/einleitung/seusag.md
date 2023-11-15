@@ -8,4 +8,6 @@ nav_order: 207
 
 # 2.6 SEUSAG
 
-TODO
+![SEUSAG Diagram](../ressources/images/seusag/seusag.jpg)
+
+Quelle Bild - Selbstkreation

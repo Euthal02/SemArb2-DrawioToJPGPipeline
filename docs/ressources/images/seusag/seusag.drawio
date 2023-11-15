@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-11-15T18:07:11.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="wEv558CxCRaOBb2qJw-2" version="22.1.2" type="device">
+  <diagram name="Seite-1" id="HOdfMi8hTG88w1JVNkGJ">
+    <mxGraphModel dx="1050" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-1" value="System" style="ellipse;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="450" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-2" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Umwelt&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-3" value="&lt;div&gt;GIT Repo&lt;/div&gt;&lt;div&gt;techdocs.backbone.ch&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQXzlaB43FhiiuMlSv6E-4" target="EQXzlaB43FhiiuMlSv6E-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-23" value="&lt;div&gt;Deploy&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EQXzlaB43FhiiuMlSv6E-22">
+          <mxGeometry x="0.2445" y="5" relative="1" as="geometry">
+            <mxPoint x="-4" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-4" value="Jenkins Pipeline" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQXzlaB43FhiiuMlSv6E-3" target="EQXzlaB43FhiiuMlSv6E-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="506.8421052631579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-12" value="&lt;div&gt;GIT Push&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EQXzlaB43FhiiuMlSv6E-10">
+          <mxGeometry x="-0.3108" relative="1" as="geometry">
+            <mxPoint x="2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="EQXzlaB43FhiiuMlSv6E-14" target="EQXzlaB43FhiiuMlSv6E-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-14" value="Docker Compose" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-15" value="&lt;div&gt;Container Images&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-17" value="&lt;div&gt;ReadTheDocs&lt;/div&gt;Theme" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="EQXzlaB43FhiiuMlSv6E-19" target="EQXzlaB43FhiiuMlSv6E-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-19" value="Sphinx Generator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-21" value="&lt;div&gt;Webserver&lt;/div&gt;&lt;div&gt;jenkins1.backbone.ch&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="585" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="EQXzlaB43FhiiuMlSv6E-24" target="EQXzlaB43FhiiuMlSv6E-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQXzlaB43FhiiuMlSv6E-24" value="DrawIO Binary" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
