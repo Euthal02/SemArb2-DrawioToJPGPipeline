@@ -16,21 +16,37 @@ Ich arbeite nach einem LEAN Prinzip, plane nach SCRUM und behalte den Überblick
 
 Um es in den Worten von Chat-GPT zu sagen:
 
-    Das LEAN-Prinzip ist eine Philosophie und Methodik zur Prozessoptimierung und Effizienzsteigerung in Unternehmen. Hier sind einige Schritte, um nach dem LEAN-Prinzip zu arbeiten:
+    Das LEAN-Prinzip ist eine Philosophie und Methodik zur Prozessoptimierung und Effizienzsteigerung in 
+    Unternehmen. Hier sind einige Schritte, um nach dem LEAN-Prinzip zu arbeiten:
 
-    1: Verstehen Sie den Wert aus Sicht des Kunden: Identifizieren Sie, was für Ihre Kunden wertvoll ist und wie Ihre Produkte oder Dienstleistungen ihre Bedürfnisse erfüllen.
+    1: Verstehen Sie den Wert aus Sicht des Kunden: Identifizieren Sie, was für Ihre Kunden wertvoll ist 
+    und wie Ihre Produkte oder Dienstleistungen ihre Bedürfnisse erfüllen.
 
-    2: Identifizieren Sie den Wertstrom: Analysieren Sie den gesamten Ablauf Ihrer Prozesse, um die Schritte zu identifizieren, die zum Erzeugen des Produkts oder der Dienstleistung notwendig sind. Identifizieren Sie dabei auch Verschwendungen (wie unnötige Schritte, Wartezeiten, Überproduktion, Lagerbestände usw.).
+    2: Identifizieren Sie den Wertstrom: Analysieren Sie den gesamten Ablauf Ihrer Prozesse, um die Schritte 
+    zu identifizieren, die zum Erzeugen des Produkts oder der Dienstleistung notwendig sind. 
+    Identifizieren Sie dabei auch Verschwendungen (wie unnötige Schritte, Wartezeiten, 
+    Überproduktion, Lagerbestände usw.).
 
-    3: Schaffen Sie einen Fluss: Stellen Sie sicher, dass die einzelnen Prozessschritte nahtlos ineinander übergehen, um eine kontinuierliche Produkt- oder Dienstleistungserstellung zu ermöglichen. Entfernen Sie Hindernisse und Engpässe, die den Fluss behindern.
+    3: Schaffen Sie einen Fluss: Stellen Sie sicher, dass die einzelnen Prozessschritte nahtlos 
+    ineinander übergehen, um eine kontinuierliche Produkt- oder Dienstleistungserstellung zu ermöglichen. 
+    Entfernen Sie Hindernisse und Engpässe, die den Fluss behindern.
 
-    4: Etablieren Sie Pull-Systeme: Implementieren Sie Systeme, bei denen Produkte oder Dienstleistungen auf Kundenanforderung hin erzeugt werden, anstatt auf Basis von Prognosen oder Überproduktion. Dies minimiert Überbestände und reduziert Verschwendung.
+    4: Etablieren Sie Pull-Systeme: Implementieren Sie Systeme, bei denen Produkte oder Dienstleistungen 
+    auf Kundenanforderung hin erzeugt werden, anstatt auf Basis von Prognosen oder Überproduktion. 
+    Dies minimiert Überbestände und reduziert Verschwendung.
 
-    5: Streben Sie nach Perfektion: Stellen Sie eine Kultur der kontinuierlichen Verbesserung auf. Identifizieren Sie Probleme und Engpässe, suchen Sie nach Lösungen und setzen Sie diese um. Implementieren Sie auch Mechanismen zur Überwachung der Leistung und zur Anpassung von Prozessen.
+    5: Streben Sie nach Perfektion: Stellen Sie eine Kultur der kontinuierlichen Verbesserung auf. 
+    Identifizieren Sie Probleme und Engpässe, suchen Sie nach Lösungen und setzen Sie diese um. 
+    Implementieren Sie auch Mechanismen zur Überwachung der Leistung und zur Anpassung von Prozessen.
 
-    6: Betonen Sie Teamarbeit und Mitarbeiterbeteiligung: Einbeziehung und Beteiligung der Mitarbeiter sind entscheidend für den Erfolg von LEAN. Befähigen Sie Ihre Mitarbeiter, ihre Arbeit selbst zu optimieren und nehmen Sie ihre Vorschläge zur Prozessverbesserung ernst.
+    6: Betonen Sie Teamarbeit und Mitarbeiterbeteiligung: Einbeziehung und Beteiligung der Mitarbeiter 
+    sind entscheidend für den Erfolg von LEAN. Befähigen Sie Ihre Mitarbeiter, ihre Arbeit selbst zu 
+    optimieren und nehmen Sie ihre Vorschläge zur Prozessverbesserung ernst.
 
-    Es ist wichtig zu beachten, dass die Einführung von LEAN ein kontinuierlicher Prozess ist. Es erfordert Zeit, Engagement und eine offene Einstellung für Veränderungen. Die Einbindung von Mitarbeitern auf allen Ebenen des Unternehmens ist entscheidend, um erfolgreich nach dem LEAN-Prinzip zu arbeiten.
+    Es ist wichtig zu beachten, dass die Einführung von LEAN ein kontinuierlicher Prozess ist. 
+    Es erfordert Zeit, Engagement und eine offene Einstellung für Veränderungen. 
+    Die Einbindung von Mitarbeitern auf allen Ebenen des Unternehmens ist entscheidend, um erfolgreich 
+    nach dem LEAN-Prinzip zu arbeiten.
 
 [Quelle Chat-GPT](../anhang/quellen.html#521-chat-gpt)
 
