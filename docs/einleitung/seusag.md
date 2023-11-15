@@ -8,6 +8,8 @@ nav_order: 207
 
 # 2.6 SEUSAG
 
-![SEUSAG Diagram](../ressources/images/seusag/seusag.jpg)
+Das sind meine Systemabhängigkeiten und Verbindungen:
+
+![SEUSAG Diagram](../ressources/images/seusag/seusag.svg)
 
 Quelle Bild - Selbstkreation
