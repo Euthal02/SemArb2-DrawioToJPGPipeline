@@ -31,6 +31,10 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://stock.adobe.com/de/search?k=soll-ist-vergleich>
 
+### 5.1.6 Semesterarbeit
+
+<https://www.verbformen.com/declension/nouns/Semesterarbeit.htm>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?
