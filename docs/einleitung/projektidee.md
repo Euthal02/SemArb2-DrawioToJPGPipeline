@@ -26,4 +26,4 @@ Ich möchte an dieser anknüpfen und so erweitern, dass die Files mittels eigens
 
 ![Jenkins Logo](../ressources/images/jenkins/logo.png)
 
-[Quelle Bild - ReadTheDocs](../anhang/quellen.html#514-jenkins-logo)
+[Quelle Bild - Jenkins Logo](../anhang/quellen.html#514-jenkins-logo)
