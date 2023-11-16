@@ -1,0 +1,75 @@
+pipeline {
+    agent any
+
+    environment {
+        PKF="techdocs"
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '20'))
+    }
+
+    stages {
+        stage('Prerun Diag') {
+            steps {
+                sh 'pwd'
+            }
+        }
+
+        stage('Setup') {
+            steps {
+                    sh '''
+'''
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh './build.sh'
+            }
+        }
+
+	stage('Upload') {
+		steps {
+			sh '''
+cat ${DLD}/prod/jenkinslib-latest.tbz | tar -xvjf -
+. ./jenkinslib.sh
+cd build
+about >about
+PkgPack
+PkgLinkLatest
+'''
+		}
+	}
+
+
+	stage('Deploy') {
+		steps {
+			sh '''
+LINE="test"
+[ "${GIT_BRANCH}" = "master" ] && LINE="prod"
+sudo /usr/local/bin/techdocs_deploy.sh
+'''
+		}
+	}
+
+        stage('Clean') {
+            steps {
+                cleanWs(cleanWhenAborted: true, cleanWhenNotBuilt: true, cleanWhenSuccess: true, cleanWhenUnstable: true, cleanupMatrixParent: true, deleteDirs: true)
+            }
+        }
+    }
+
+    post {
+        always {
+            echo "${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+        }
+        failure {
+            echo "${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+        }
+        unstable {
+            echo "${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+        }
+    }
+}
+

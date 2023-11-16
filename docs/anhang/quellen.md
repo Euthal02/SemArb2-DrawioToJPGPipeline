@@ -35,6 +35,10 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://www.verbformen.com/declension/nouns/Semesterarbeit.htm>
 
+### 5.1.7 Hauptteil schreiben
+
+<https://www.bachelorprint.ch/wissenschaftliches-schreiben/hauptteil-schreiben/>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?
