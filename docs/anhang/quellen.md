@@ -47,3 +47,12 @@ Das reicht von Tools, die ich nutzen kann, bis zu Webseiten, bei welchen ich mir
 ### 5.2.1 Chat-GPT
 
 <https://chat.openai.com/>
+
+
+## 5.3 Vorarbeit
+
+Einige Teile meiner Arbeit sind von anderen erstellt. Hier werden die fremden Teile identifiziert.
+
+### 5.3.1 Jenkinsfile, Bash Scripts & Makefile
+
+Die Files wurden von Michael Siebecker erstellt. <mailto:msiebecker@backbone.ch>
