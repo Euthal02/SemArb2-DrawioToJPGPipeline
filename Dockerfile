@@ -25,4 +25,4 @@ RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install --no-upgrade -y \
 RUN ln -s /usr/share/sphinx_rtd_theme /usr/share/sphinx/themes/
 
 # html generator starten
-CMD ["./build.sh"]
+RUN ./build.sh
