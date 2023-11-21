@@ -48,6 +48,9 @@ Das reicht von Tools, die ich nutzen kann, bis zu Webseiten, bei welchen ich mir
 
 <https://chat.openai.com/>
 
+### 5.2.2 Was ist Sphinx?
+
+<https://www.sphinx-doc.org/en/master/usage/quickstart.html>
 
 ## 5.3 Vorarbeit
 
