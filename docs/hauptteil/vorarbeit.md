@@ -9,7 +9,7 @@ nav_order: 301
 
 Um die Arbeit schlussendlich gut in die bestehende Prozesse zu integrieren, nutze ich einige Vorarbeit von meinen Vorgängern.
 
-Diese Vorarbeit ist unter dem Ordner "prework" zu finden. 
+Diese Vorarbeit ist unter dem Ordner "prework" zu finden.
 
 * Jenkinsfile, definiert die Jenkins Pipeline.
 * build.sh, Abhängigkeit der Pipeline, startet make Prozess.

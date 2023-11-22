@@ -7,11 +7,13 @@ nav_order: 302
 
 # 3.2 Sphinx in einem Container installieren
 
-Der erste Schritt ist es, unsere jetzige feste Installation in einem 
+Der erste Schritt ist es, unsere jetzige feste Installation in einem Container abzubilden.
+
+Doch zuerst einmal eine bessere Beschriebung was Sphinx genau ist.
 
 ## Was ist Sphinx?
 
-Die Entwickler der Software beschreiben Sphinx folgendermassen:
+Die Entwickler der Software Sphinx beschreiben Sphinx folgendermassen:
 
 ```
 Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, 
@@ -20,18 +22,16 @@ or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (v
 ```
 [Quelle Text - Was ist Sphinx?](../anhang/quellen.html#522-was-ist-sphinx)
 
-Im alltäglichen Gebrauch resultiert dies also in einer einfach zu bearbeitbaren Dokumentation mit Markdown in einem GIT Repo, zusätzlich aber auch eine benutzerfreundliche Weboberfläche.
+Im alltäglichen Gebrauch resultiert dies also in einer einfach zu bearbeitbaren Dokumentation mit Markdown in einem GIT Repo, zusätzlich aber auch eine benutzerfreundliche Weboberfläche. Dies wird erreicht mit der einfachen Konvertierung durch Sphinx.
 
-Genau in diesem Zusammenhang nutzen wir also Sphinx bereits in meiner Firma.
-
-Dies bedeutet also, dass Sphinx ein nicht auswechselbarer Component ist, wenn ich nicht direkt den ganzen Prozess anpassen möchte.
+Genau in diesem Zusammenhang nutzen wir also Sphinx bereits in meiner Firma. Dies bedeutet also, dass Sphinx ein nicht auswechselbarer Komponent ist, wenn ich nicht direkt den ganzen Prozess anpassen möchte.
 
 Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den Sphinx "Translateprozess" innerhalb Sphinx, mit der Möglichkeit zu erweitern DrawIO Files zu verstehen und umzuwandeln.
 
 ## Umsetzung in Dockerfile
 
 {: .information }
-Dies entspricht einer alten Version meiner selbst, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. Der vollständigkeitshalber wurde dieser Abschnitt behalten.
+Dies entspricht einer alten Version meiner Idee, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. Der vollständigkeitshalber wurde dieser Abschnitt behalten. Das Problem beim selber erstellten Image war, dass die Installation / Erstellung des Images viel zu lange dauerte.
 
 Am Anfang möchte ich mit einem Dockerfile starten, welche mir sozusagen immer den gleichen Installationsstandard gibt, wie jetzt in der bisherigen festen Installation.
 

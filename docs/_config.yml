@@ -31,6 +31,7 @@ github_username:  "euthal02"
 # external stuff
 aux_links:
   Projektplanung: https://github.com/users/Euthal02/projects/3
+  Git Repo: https://github.com/Euthal02/SemArb2-DrawioToJPGPipeline
 aux_links_new_tab: true
 
 
@@ -45,7 +46,6 @@ plugins:
 back_to_top: true
 back_to_top_text: "Back to top"
 color_scheme: dark
-
 callouts:
   information:
     title: Information
