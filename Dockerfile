@@ -13,7 +13,8 @@ WORKDIR /app
 # abhängigkeiten installieren - apt
 RUN apt-get update
 
-RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install --no-upgrade -y \
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC \
+    apt-get install --no-upgrade -y \
     python3 \
     python3-pip \
     python3-sphinx \

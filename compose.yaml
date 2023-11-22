@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  drawio_conversion:
+    image: sphinxdoc/sphinx
+    volumes:
+      - ./prework:/app/prework
+      - ./source:/app/source
+    #command: sphinx-quickstart --sep -p "test" -a "euthal02" --quiet

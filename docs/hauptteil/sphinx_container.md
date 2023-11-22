@@ -7,7 +7,7 @@ nav_order: 302
 
 # 3.2 Sphinx in einem Container installieren
 
-Der erste Schritt ist es, unseren jetztigen 
+Der erste Schritt ist es, unsere jetzige feste Installation in einem 
 
 ## Was ist Sphinx?
 
@@ -30,6 +30,9 @@ Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den Sphinx
 
 ## Umsetzung in Dockerfile
 
+| :exclamation:  Dies entspricht einer alten Version meiner selbst, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. |
+|-----------------------------------------|
+
 Am Anfang möchte ich mit einem Dockerfile starten, welche mir sozusagen immer den gleichen Installationsstandard gibt, wie jetzt in der bisherigen festen Installation.
 
 Dies erreiche im mit dem abgelegten Dockerfile.
@@ -47,7 +50,10 @@ Mit diesem Command kopiere ich anschliessend die benötigen Files auf den Contai
 
 ```
 # kopieren von prework dateien
-COPY prework/* /app/
+COPY prework/* /app/prework/
+
+# kopieren der source files auf den container
+COPY source/* /app/source/
 ```
 
 Anschliessend definiere ich das Working Directory, welches genutzt wird um innerhalb des Containers einen Folder zu haben, auf welchem Files geschrieben werden können.
@@ -61,7 +67,10 @@ Sobald der Container läuft, installiere ich die Abhängigkeiten für Sphinx:
 
 ```
 # abhängigkeiten installieren - apt
-RUN apt-get install -y \
+RUN apt-get update
+
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC \
+    apt-get install --no-upgrade -y \
     python3 \
     python3-pip \
     python3-sphinx \
@@ -81,7 +90,5 @@ Execute the precreated build.sh File:
 
 ```
 # html generator starten
-CMD ["./build.sh"]
+RUN ./build.sh
 ```
-
-
