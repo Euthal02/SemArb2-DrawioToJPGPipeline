@@ -18,3 +18,5 @@ Diese Vorarbeit ist unter dem Ordner "prework" zu finden.
 * techdocs_deploy.sh, Script welches genutzt wird um die kompilierten Files auf den Webserver zu transferieren.
 
 [Quelle Vorarbeit - Jenkinsfile, Bash Scripts & Makefile](../anhang/quellen.html#531-jenkinsfile-bash-scripts--makefile)
+
+[Prework Ordner](https://github.com/Euthal02/SemArb2-DrawioToJPGPipeline/tree/main/prework)
