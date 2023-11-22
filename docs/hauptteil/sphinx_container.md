@@ -30,8 +30,8 @@ Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den Sphinx
 
 ## Umsetzung in Dockerfile
 
-| :exclamation:  Dies entspricht einer alten Version meiner selbst, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. |
-|-----------------------------------------|
+{: .important }
+Dies entspricht einer alten Version meiner selbst, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. Der vollständigkeitshalber wurde dieser Abschnitt behalten.
 
 Am Anfang möchte ich mit einem Dockerfile starten, welche mir sozusagen immer den gleichen Installationsstandard gibt, wie jetzt in der bisherigen festen Installation.
 
