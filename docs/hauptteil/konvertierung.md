@@ -32,7 +32,7 @@ Falls Einsicht in diese Daten gewünscht werden, kann ich diese bereitstellen.
 Diese Ordnerstruktur kann anschliessend direkt dem Container Image übergeben werden.
 
 ```
-$ docker run --rm -v "C:/Users/marco/TBZ/IT_ITCNE23_2_SemArbeit - Marco Kälin (CI-CD Pipeline) - Marco Kälin (CI-CD Pipeline)/Source Code/SemArb2-DrawioToJPGPipeline/sphinx_files":/docs/ sphinxdoc/sphinx make html
+$ docker run --rm -v ./sphinx_files:/docs waeldi/sphinx_compiler:latest sphinx-build -M html . _build
 
 Running Sphinx v7.1.2
 loading pickled environment... done
