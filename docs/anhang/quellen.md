@@ -43,6 +43,10 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://oskerzers.friweb.ch/de/schulleben/selbststaendige-projektarbeit-22-23>
 
+### 5.1.9 Docker Compose
+
+<https://blog.techbridge.cc/2018/09/07/docker-compose-tutorial-intro/>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?
@@ -55,6 +59,14 @@ Das reicht von Tools, die ich nutzen kann, bis zu Webseiten, bei welchen ich mir
 ### 5.2.2 Was ist Sphinx?
 
 <https://www.sphinx-doc.org/en/master/usage/quickstart.html>
+
+### 5.2.3 DrawIO Plugin
+
+<https://pypi.org/project/sphinxcontrib-drawio/>
+
+### 5.2.4 RTD Theme
+
+<https://pypi.org/project/sphinx-rtd-theme/>
 
 ## 5.3 Vorarbeit
 

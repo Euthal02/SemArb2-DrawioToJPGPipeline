@@ -7,9 +7,11 @@ nav_order: 302
 
 # 3.2 Sphinx in einem Container installieren
 
-Der erste Schritt ist es, unsere jetzige feste Installation in einem Container abzubilden.
+Der erste Schritt ist es, unsere jetzige feste Installation in einem Container abzubilden. 
 
-Doch zuerst einmal eine bessere Beschriebung was Sphinx genau ist.
+Dazu muss ich die eigentliche Konvertierungssoftware Sphinx installieren, mit allen Abhängigkeiten.
+
+Doch zuerst einmal eine bessere Beschreibung was Sphinx genau ist.
 
 ## Was ist Sphinx?
 
@@ -24,71 +26,50 @@ or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (v
 
 Im alltäglichen Gebrauch resultiert dies also in einer einfach zu bearbeitbaren Dokumentation mit Markdown in einem GIT Repo, zusätzlich aber auch eine benutzerfreundliche Weboberfläche. Dies wird erreicht mit der einfachen Konvertierung durch Sphinx.
 
+Die Konvertierten Markdown Files zu HTML können dann von jedem Webserver genutzt werden um die Dokumentation als Webseite darzustellen.
+
 Genau in diesem Zusammenhang nutzen wir also Sphinx bereits in meiner Firma. Dies bedeutet also, dass Sphinx ein nicht auswechselbarer Komponent ist, wenn ich nicht direkt den ganzen Prozess anpassen möchte.
 
-Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den Sphinx "Translateprozess" innerhalb Sphinx, mit der Möglichkeit zu erweitern DrawIO Files zu verstehen und umzuwandeln.
+Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den "Translateprozess" innerhalb Sphinx, mit der Möglichkeit zu erweitern DrawIO Files zu verstehen und umzuwandeln.
 
 ## Umsetzung in Dockerfile
 
-{: .information }
-Dies entspricht einer alten Version meiner Idee, als ich noch das Container Image selber machen wollte. Mittlerweile nutze ich das vorerstellte Sphinx Image. Der vollständigkeitshalber wurde dieser Abschnitt behalten. Das Problem beim selber erstellten Image war, dass die Installation / Erstellung des Images viel zu lange dauerte.
+Es gibt ein vorerstelltes Sphinx-Image, welches die Basissoftware bereits installiert hat. 
+
+Die Abhängigkeiten können in einem eigenen Dockerfile ergänzt werden, welche das Sphinx Image als Basis hat.
 
 Am Anfang möchte ich mit einem Dockerfile starten, welche mir sozusagen immer den gleichen Installationsstandard gibt, wie jetzt in der bisherigen festen Installation.
 
-Dies erreiche im mit dem abgelegten Dockerfile.
+Mein erstelltes Dockerfile hat folgende Config:
 
 [Link zum File](https://github.com/Euthal02/SemArb2-DrawioToJPGPipeline/blob/main/archive/Dockerfile)
 
-Als Erstes definiere ich die Base Installation, dies ist in meinem Fall Ubuntu um die jetzige Situation abzubilden:
+Als Erstes definiere ich die Base Installation, dies ist in meinem Fall Sphinx um die jetzige Situation abzubilden:
 
 ```
-# standard ubuntu image als basis
-FROM ubuntu:latest
+# standard sphinx image als basis
+FROM sphinxdoc/sphinx:latest
 ```
 
-Mit diesem Command kopiere ich anschliessend die benötigen Files auf den Container:
+Zusätzlich installiere ich die Abhängigkeiten, welche wir benötigen (das sphinxcontrib-drawio Plugin wird [hier](drawio_integration.html) genauer erklärt).
+
+Das Plugin **sphinx-rtd-theme** ist nur für das Design verantwortlich. [Quelle Theme - RTD Theme](../anhang/quellen.html#524-rtd-theme)
 
 ```
-# kopieren von prework dateien
-COPY prework/* /app/prework/
+RUN pip install --upgrade pip
 
-# kopieren der source files auf den container
-COPY source/* /app/source/
+RUN python3 -m pip install sphinx-rtd-theme sphinxcontrib-drawio
 ```
 
-Anschliessend definiere ich das Working Directory, welches genutzt wird um innerhalb des Containers einen Folder zu haben, auf welchem Files geschrieben werden können.
+Um nun das Image um die DrawIO Kompetenzen zu erweitern, muss ich auch diese Abhängigkeiten installieren:
 
 ```
-# arbeitsverzeichnis als /app setzen
-WORKDIR /app
-```
-
-Sobald der Container läuft, installiere ich die Abhängigkeiten für Sphinx:
-
-```
-# abhängigkeiten installieren - apt
 RUN apt-get update
 
-RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC \
-    apt-get install --no-upgrade -y \
-    python3 \
-    python3-pip \
-    python3-sphinx \
-    python3-sphinx-rtd-theme \
-    python3-myst-parser \
-    texlive
-```
+RUN apt-get install -f --no-upgrade wget curl xvfb libasound2 -y
 
-Das Theme wird dann korrekt verlinkt:
+RUN curl -s https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | grep browser_download_url | grep amd64 | cut -d '"' -f 4 | wget -i -
 
-```
-# theme korrekt verlinken
-RUN ln -s /usr/share/sphinx_rtd_theme /usr/share/sphinx/themes/
-```
+RUN apt-get install -f --no-upgrade ./drawio-amd64-*.deb -y
 
-Execute the precreated build.sh File:
-
-```
-# html generator starten
-RUN ./build.sh
 ```

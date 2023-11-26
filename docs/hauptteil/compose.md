@@ -9,4 +9,9 @@ nav_order: 303
 
 Ursprünglich war es angedacht die ganze Umformatierung in einem Docker Compose File zu erledigen, mit meiner Entscheidung ein vorerstelltes Image zu verwenden hat sich dies jedoch ergeben.
 
-Mit dem vorerstellten Image ist es um einiges einfacher Sphinx zu nutzen. Wie dies genau gemacht wird, erkläre ich im nächsten Abschnitt.
+Mit dem vorerstellten Image ist es um einiges einfacher Sphinx zu nutzen. Ich muss nicht eine Orchestrierung aufgleisen, mit welcher ein Container erstellt wird.
+
+![Docker Compose](../ressources/images/docker/docker-compose-services.png)
+
+[Quelle Bild - Docker Compose](../anhang/quellen.html#519-docker-compose)
+

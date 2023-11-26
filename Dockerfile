@@ -3,7 +3,7 @@ FROM sphinxdoc/sphinx:latest
 
 RUN pip install --upgrade pip
 
-RUN python3 -m pip install sphinx-rtd-theme myst-parser sphinxcontrib-drawio
+RUN python3 -m pip install sphinx-rtd-theme sphinxcontrib-drawio
 
 RUN apt-get update
 
