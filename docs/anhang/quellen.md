@@ -39,6 +39,10 @@ Woher stammen die genutzten Bilder meiner Abschlussarbeit?
 
 <https://www.bachelorprint.ch/wissenschaftliches-schreiben/hauptteil-schreiben/>
 
+### 5.1.8 Projektarbeit
+
+<https://oskerzers.friweb.ch/de/schulleben/selbststaendige-projektarbeit-22-23>
+
 ## 5.2 Hilfsmittel
 
 Welche Hilfsmittel habe ich genutzt?
