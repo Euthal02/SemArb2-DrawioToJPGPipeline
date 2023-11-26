@@ -7,6 +7,7 @@ Hier findet sich die Dokumentation und die eigentliche Arbeit.
 Ich kann den Anforderungen der Lehrerschaft mit einem sehr gut etablierten Version Control System wie GIT gerecht werden.  
 
 ![Projektarbeit](docs/ressources/images/general/projektarbeit.jpg)
+
 [Quelle Bild - Projektarbeit](docs/anhang/quellen.md#518-projektarbeit)
 
 ## Ordner
