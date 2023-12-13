@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.2 Sphinx in einem Container installieren
-parent: 3. Haupteil
+parent: 3. Hauptteil
 nav_order: 302
 ---
 

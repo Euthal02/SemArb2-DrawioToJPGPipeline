@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.3 Docker Compose Umsetzung
-parent: 3. Haupteil
+parent: 3. Hauptteil
 nav_order: 303
 ---
 

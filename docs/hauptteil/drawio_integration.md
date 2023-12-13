@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.5 DrawIO Integration
-parent: 3. Haupteil
+parent: 3. Hauptteil
 nav_order: 305
 ---
 
