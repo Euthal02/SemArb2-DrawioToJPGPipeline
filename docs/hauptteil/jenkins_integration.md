@@ -15,7 +15,7 @@ Das bestehende Jenkinsfile ist aus meiner Firma exportiert und wird momentan akt
 
 Um dies umzusetzen, bietet sich diese bereits erstellte Stage im Jenkinsfile an.
 
-```
+```bash
 stage('Build') {
     steps {
         sh './build.sh'
@@ -24,4 +24,4 @@ stage('Build') {
 ```
 
 In dieser Stage wird ein einfaches Build Script aufgerufen. Ich kann dieses Build Script mit dem Command erweitern, welchen ich genutzt habe, um im ersten Sprint die Files zu konvertieren. 
-Ich werde dieses Skript erweitern und dies hier dokumentieren.
+Ich werde dieses Skript erweitern und dies dokumentieren.

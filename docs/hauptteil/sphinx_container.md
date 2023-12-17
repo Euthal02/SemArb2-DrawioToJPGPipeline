@@ -11,6 +11,8 @@ Der erste Schritt ist es, unsere jetzige feste Installation in einem Container a
 
 Dazu muss ich die eigentliche Konvertierungssoftware Sphinx installieren, mit allen Abhängigkeiten.
 
+Dazu kann ich das Setup Script nutzen, welches bereits in der Vorarbeit erstellt wurde.
+
 Doch zuerst einmal eine bessere Beschreibung was Sphinx genau ist.
 
 ## Was ist Sphinx?
@@ -28,15 +30,15 @@ Im alltäglichen Gebrauch resultiert dies also in einer einfach zu bearbeitbaren
 
 Die Konvertierten Markdown Files zu HTML können dann von jedem Webserver genutzt werden um die Dokumentation als Webseite darzustellen.
 
-Genau in diesem Zusammenhang nutzen wir also Sphinx bereits in meiner Firma. Dies bedeutet also, dass Sphinx ein nicht auswechselbarer Komponent ist, wenn ich nicht direkt den ganzen Prozess anpassen möchte.
+Genau in diesem Zusammenhang nutzen wir also Sphinx bereits in meiner Firma. Dies bedeutet also, dass Sphinx ein nicht auswechselbarer Component ist, wenn ich nicht direkt den ganzen Prozess anpassen möchte.
 
 Da dies den Rahmen sprengen würde, habe ich mich darauf beschränkt, den "Translateprozess" innerhalb Sphinx, mit der Möglichkeit zu erweitern DrawIO Files zu verstehen und umzuwandeln.
 
 ## Umsetzung in Dockerfile
 
-Es gibt ein vorerstelltes Sphinx-Image, welches die Basissoftware bereits installiert hat. 
+Es gibt ein vor erstelltes Sphinx-Image, welches die Basissoftware bereits installiert hat. 
 
-Die Abhängigkeiten können in einem eigenen Dockerfile ergänzt werden, welche das Sphinx Image als Basis hat.
+Die Abhängigkeiten können in einem eigenen Dockerfile ergänzt werden, welche das Sphinx-Image als Basis hat.
 
 Am Anfang möchte ich mit einem Dockerfile starten, welche mir sozusagen immer den gleichen Installationsstandard gibt, wie jetzt in der bisherigen festen Installation.
 
@@ -46,7 +48,7 @@ Mein erstelltes Dockerfile hat folgende Config:
 
 Als Erstes definiere ich die Base Installation, dies ist in meinem Fall Sphinx um die jetzige Situation abzubilden:
 
-```
+```dockerfile
 # standard sphinx image als basis
 FROM sphinxdoc/sphinx:latest
 ```
@@ -55,7 +57,7 @@ Zusätzlich installiere ich die Abhängigkeiten, welche wir benötigen (das sphi
 
 Das Plugin **sphinx-rtd-theme** ist nur für das Design verantwortlich. [Quelle Theme - RTD Theme](../anhang/quellen.html#524-rtd-theme)
 
-```
+```dockerfile
 RUN pip install --upgrade pip
 
 RUN python3 -m pip install sphinx-rtd-theme sphinxcontrib-drawio
@@ -63,7 +65,7 @@ RUN python3 -m pip install sphinx-rtd-theme sphinxcontrib-drawio
 
 Um nun das Image um die DrawIO Kompetenzen zu erweitern, muss ich auch diese Abhängigkeiten installieren:
 
-```
+```dockerfile
 RUN apt-get update
 
 RUN apt-get install -f --no-upgrade wget curl xvfb libasound2 -y
@@ -72,3 +74,49 @@ RUN curl -s https://api.github.com/repos/jgraph/drawio-desktop/releases/latest |
 
 RUN apt-get install -f --no-upgrade ./drawio-amd64-*.deb -y
 ```
+
+Dieses Dockerfile kann anschliessend genutzt werden, um ein Image zu erstellen.
+Mit diesem Command wird das Dockerfile im jetzigen Working Directory ausgeführt und ein Image mit dem Namen "waeldi/sphinx_compiler" erstellt.
+
+```bash
+sudo docker build -t waeldi/sphinx_compiler .
+```
+
+## Wie nutzt man dieses Dockerfile?
+
+Man nutzt dieses File folgendermassen, in einem Docker Command:
+
+```bash
+$ docker run --rm -v ./sphinx_files:/docs waeldi/sphinx_compiler:latest sphinx-build -M html . _build
+
+Running Sphinx v7.1.2
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 0 source files that are out of date
+updating environment: 0 added, 0 changed, 0 removed
+reading sources...
+looking for now-outdated files... none found
+no targets are out of date.
+build succeeded.
+
+The HTML pages are in build/html.
+```
+
+
+Der Command ist folgendermassen aufgebaut:
+
+`docker run --rm -v ./sphinx_files:/docs waeldi/sphinx_compiler:latest sphinx-build -M html . _build`
+
+Mit `docker run` wird ein eigenständiger Container ausgeführt.
+
+Das `--rm` Direktiv führt dazu, dass dieser Container nach der Ausführung wieder beendet und gelöscht wird.
+
+Eine Verknüpfung zwischen einem lokalen Ordner und einem Ordner im Container wird mit diesem Volume Command erstellt: `-v ./sphinx_files:/docs`
+Innerhalb des lokalen Ordners werden die Sphinx Files hinterlegt.
+
+Hier wird definiert welches Image genutzt wird, um den temporären Container zu erstellen: `waeldi/sphinx_compiler:latest`
+
+Dies `sphinx-build -M html . _build`, ist dann der eigentliche Command welcher im Container ausgeführt wird.
+
+Dies entspricht dem make Command im Build Script, welcher im Abschnitt 3.1 besprochen wurde.

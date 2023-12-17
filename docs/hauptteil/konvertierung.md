@@ -7,7 +7,7 @@ nav_order: 304
 
 # 3.4 Konvertierung der Files
 
-Mit dem vorerstellten Image von Sphinx direkt und der Möglichkeiten dieser Variante hat sich das ganze um einiges erleichtert.
+Mit dem vor erstellten Image von Sphinx direkt und der Möglichkeiten dieser Variante hat sich das ganze um einiges erleichtert.
 
 Ich kann nun direkt die Konvertierung starten, ohne einen Container erstellen zu müssen.
 
@@ -29,43 +29,4 @@ Da dies in meinem Fall sensitive Daten meiner Firma enthalten würde, kann ich d
 
 Falls Einsicht in diese Daten gewünscht werden, kann ich diese bereitstellen.
 
-Diese Ordnerstruktur kann anschliessend direkt dem Container Image übergeben werden.
-
-```
-$ docker run --rm -v ./sphinx_files:/docs waeldi/sphinx_compiler:latest sphinx-build -M html . _build
-
-Running Sphinx v7.1.2
-loading pickled environment... done
-building [mo]: targets for 0 po files that are out of date
-writing output...
-building [html]: targets for 0 source files that are out of date
-updating environment: 0 added, 0 changed, 0 removed
-reading sources...
-looking for now-outdated files... none found
-no targets are out of date.
-build succeeded.
-
-The HTML pages are in build/html.
-```
-
-Der Make Command führt den Catch-All Case aus. (Das File hierzu findet sich auch im [Prework Ordner](https://github.com/Euthal02/SemArb2-DrawioToJPGPipeline/tree/main/prework)):
-
-```
-# You can set these variables from the command line, and also
-SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = Backbone
-SOURCEDIR     = source
-BUILDDIR      = build
-
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
-.PHONY: help Makefile
-
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-```
+Diese Ordnerstruktur kann anschliessend direkt dem Container Image übergeben werden, wie in Kapitel 3.2 beschrieben.
