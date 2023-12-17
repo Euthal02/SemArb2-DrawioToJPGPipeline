@@ -64,6 +64,7 @@ RUN python3 -m pip install sphinx-rtd-theme sphinxcontrib-drawio
 ```
 
 Um nun das Image um die DrawIO Kompetenzen zu erweitern, muss ich auch diese Abhängigkeiten installieren:
+Das Standardimage von Docker hat das Packet nicht in der Repository, daher downloade ich es direkt von der Webseite.
 
 ```dockerfile
 RUN apt-get update
@@ -77,6 +78,7 @@ RUN apt-get install -f --no-upgrade ./drawio-amd64-*.deb -y
 
 Dieses Dockerfile kann anschliessend genutzt werden, um ein Image zu erstellen.
 Mit diesem Command wird das Dockerfile im jetzigen Working Directory ausgeführt und ein Image mit dem Namen "waeldi/sphinx_compiler" erstellt.
+Dieses Image wird lokal auf dem Rechner gespeichert, wir haben noch keine interne Docker Registry und wir sehen keinen Nutzen dieses Image auf eine öffentliche zu pushen.
 
 ```bash
 sudo docker build -t waeldi/sphinx_compiler .

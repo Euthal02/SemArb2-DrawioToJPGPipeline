@@ -11,6 +11,10 @@ Ursprünglich war es angedacht die ganze Umformatierung in einem Docker Compose 
 
 Mit dem vor erstellten Image ist es um einiges einfacher Sphinx zu nutzen. Ich muss nicht eine Orchestrierung aufgleisen, mit welcher ein Container erstellt wird.
 
+---
+
+Illustrationsbild:
+
 ![Docker Compose](../ressources/images/docker/docker-compose-services.png)
 
 [Quelle Bild - Docker Compose](../anhang/quellen.html#519-docker-compose)
