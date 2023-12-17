@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 3.6 Build Script Anpassung
+title: 3.7 Build Script Anpassung
 parent: 3. Hauptteil
-nav_order: 306
+nav_order: 307
 ---
 
 # 3.6 Build Script Anpassung
@@ -27,12 +27,15 @@ make SPHINXOPTS=-j${PROCS} html
 ```
 
 Dies sieht folgendermassen aus:
-
+Der Docker Command ist eins zu eins Vergleichbar mit dem Command von Abschnitt 3.2.
 
 ```bash
 echo "make html using docker image"
 docker run --rm -v .:/docs/ waeldi/drawio_converter:latest sphinx-build -M html . _build
 ```
+
+Der letzte Abschnitt ist schlussendlich für Cleanup Zwecke.
+Nicht benötigte Files werden entfernt und die Ordnerstruktur wird um eine Ebene verschoben.
 
 ```bash
 [ "${USER}" = "jenkins" ] && {
@@ -42,8 +45,5 @@ docker run --rm -v .:/docs/ waeldi/drawio_converter:latest sphinx-build -M html 
 
 	echo "Base name : ${JOB_BASE_NAME}"
 	echo "Branch name : ${BRANCH_NAME}"
-	}
-
-
-
+}
 ```

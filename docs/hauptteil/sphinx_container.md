@@ -103,7 +103,6 @@ build succeeded.
 The HTML pages are in build/html.
 ```
 
-
 Der Command ist folgendermassen aufgebaut:
 
 `docker run --rm -v ./sphinx_files:/docs waeldi/sphinx_compiler:latest sphinx-build -M html . _build`
